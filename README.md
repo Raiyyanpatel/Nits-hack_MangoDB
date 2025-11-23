@@ -1,6 +1,6 @@
 # 🚨 Smart Disaster Management System
 
-##SurakshaSetu
+SurakshaSetu
 
 A comprehensive real-time disaster management system that connects citizens with emergency officials through AI-powered verification, live GPS tracking, and instant alert broadcasting.
 
