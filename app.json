@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "Disaster Management App",
+    "slug": "disaster-management-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.disastermanagement",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app needs microphone access to let you record a voice alert with your incident report.",
+        "NSLocationWhenInUseUsageDescription": "This app needs your location to provide emergency alerts and assistance during disasters.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs continuous access to your location to provide emergency tracking and assistance during disasters."
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyAYhx4JS6wleIIoV_HZgqnppMXMwmHSCpE"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yourcompany.disastermanagement",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_NETWORK_STATE",
+        "INTERNET",
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "ACCESS_WIFI_STATE",
+        "CHANGE_WIFI_STATE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAYhx4JS6wleIIoV_HZgqnppMXMwmHSCpE"
+        }
+      }
+    },
+    "web": {},
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#ffffff"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location for emergency services and disaster alerts."
+        }
+      ],
+      "expo-sqlite",
+      "expo-font"
+    ]
+  }
+}

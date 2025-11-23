@@ -1,0 +1,25 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Expo local state
+.expo/
+.expo-shared/
+
+# Metro
+.expo/web-development/
+web-build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+
+# Misc
+.env*
+**/*.orig

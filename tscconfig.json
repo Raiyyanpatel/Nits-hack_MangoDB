@@ -1,0 +1,66 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "esModuleInterop": true,
+        "jsx": "react-native",
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "module": "esnext",
+        "moduleDetection": "force",
+        "moduleResolution": "node10",
+        "customConditions": [
+            "react-native"
+        ],
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "target": "esnext",
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "baseUrl": "./",
+        "useDefineForClassFields": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "strictBuiltinIteratorReturn": true,
+        "alwaysStrict": true,
+        "useUnknownInCatchVariables": true
+    },
+    "files": [
+        "./src/services/AuthService.ts",
+        "./src/types/index.ts",
+        "./App.tsx",
+        "./App_simple.tsx",
+        "./App_working.tsx",
+        "./src/components/LoadingScreen.tsx",
+        "./src/components/SOSButton.tsx",
+        "./src/navigation/AppNavigator.tsx",
+        "./src/screens/LoginScreen.tsx",
+        "./src/screens/RoleSelectionScreen.tsx",
+        "./src/screens/citizen/CitizenDisasterAlertScreen.tsx",
+        "./src/screens/citizen/CitizenTabNavigator.tsx",
+        "./src/screens/citizen/DangerZoneMapScreen.tsx",
+        "./src/screens/citizen/FacilitiesScreen.tsx",
+        "./src/screens/citizen/PendingQueueScreen.tsx",
+        "./src/screens/citizen/ReportIncidentScreen.tsx",
+        "./src/screens/official/AlertBroadcastScreen.tsx",
+        "./src/screens/official/OfficialAnalyticsDashboard.tsx",
+        "./src/screens/official/OfficialAnalyticsDashboard_fixed.tsx",
+        "./src/screens/official/OfficialTabNavigator.tsx",
+        "./src/screens/official/ReportVerificationScreen.tsx",
+        "./src/screens/official/SOSFeedScreen.tsx",
+        "./src/screens/official/SOSFeedScreen_new.tsx"
+    ],
+    "include": [
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
